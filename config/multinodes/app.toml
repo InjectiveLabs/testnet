@@ -8,13 +8,13 @@
 # The minimum gas prices a validator is willing to accept for processing a
 # transaction. A transaction's fees must meet the minimum of any denomination
 # specified in this config (e.g. 0.25token1;0.0001token2).
-minimum-gas-prices = "0.000006inj"
+minimum-gas-prices = ""
 
 # default: the last 100 states are kept in addition to every 500th state; pruning at 10 block intervals
 # nothing: all historic states will be saved, nothing will be deleted (i.e. archiving node)
 # everything: all saved states will be deleted, storing only the current state; pruning at 10 block intervals
 # custom: allow pruning options to be manually specified through 'pruning-keep-recent', 'pruning-keep-every', and 'pruning-interval'
-pruning = "default"
+pruning = "nothing"
 
 # These are applied if and only if the pruning strategy is custom.
 pruning-keep-recent = "0"
@@ -61,41 +61,6 @@ inter-block-cache = true
 index-events = []
 
 ###############################################################################
-###                         Telemetry Configuration                         ###
-###############################################################################
-
-[telemetry]
-
-# Prefixed with keys to separate services.
-service-name = ""
-
-# Enabled enables the application telemetry functionality. When enabled,
-# an in-memory sink is also enabled by default. Operators may also enabled
-# other sinks such as Prometheus.
-enabled = true
-
-# Enable prefixing gauge values with hostname.
-enable-hostname = false
-
-# Enable adding hostname to labels.
-enable-hostname-label = false
-
-# Enable adding service to labels.
-enable-service-label = false
-
-# PrometheusRetentionTime, when positive, enables a Prometheus metrics sink.
-prometheus-retention-time = 60
-
-# GlobalLabels defines a global set of name/value label tuples applied to all
-# metrics emitted using the wrapper functions defined in telemetry package.
-#
-# Example:
-# [["chain_id", "cosmoshub-1"]]
-global-labels = [
-  ["chain_id", "888"],
-]
-
-###############################################################################
 ###                           API Configuration                             ###
 ###############################################################################
 
@@ -105,10 +70,10 @@ global-labels = [
 enable = true
 
 # Swagger defines if swagger documentation should automatically be registered.
-swagger = false
+swagger = true
 
 # Address defines the API server to listen on.
-address = "tcp://0.0.0.0:1317"
+address = "tcp://0.0.0.0:10337"
 
 # MaxOpenConnections defines the number of maximum open connections.
 max-open-connections = 1000
@@ -135,7 +100,22 @@ enabled-unsafe-cors = false
 enable = true
 
 # Address defines the gRPC server address to bind to.
-address = "0.0.0.0:9090"
+address = "0.0.0.0:9900"
+
+###############################################################################
+###                           EVM RPC Configuration                         ###
+###############################################################################
+
+[evm-rpc]
+
+# Enable defines if the gRPC server should be enabled.
+enable = true
+
+# Address defines the EVM RPC HTTP server address to bind to.
+address = "0.0.0.0:1317"
+
+# Address defines the EVM WebSocket server address to bind to.
+ws-address = "0.0.0.0:1318"
 
 ###############################################################################
 ###                        State Sync Configuration                         ###
