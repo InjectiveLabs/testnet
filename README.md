@@ -4,13 +4,14 @@ This repository contains network config required to run a node connected to our 
 ## Run a node connected to devnet
 1. Initialize injectived directory
 ```
+rm -rf ./generated/devnet
 injectived init injective --home ./generated/devnet --chain-id 888
 ```
 
 2. Replace genesis.json, app.toml, config.toml in generated directory
 ```
 cd generated/devnet/config && rm -f app.toml config.toml genesis.json && cd ../../../
-cp -r config/devnet/ generated/devnet/config/
+cp -r dev/10000/ generated/devnet/config/
 ```
 
 3. Start the node and you should see it syncs with devnet after a while
@@ -31,23 +32,24 @@ cd generated/devnet/data && rm -rf application.db blockstore.db evidence.db snap
 ## Run a node connected to multinodes
 1. Initialize injectived directory
 ```
-injectived init injective --home ./generated/multinodes --chain-id 888
+rm -rf ./generated/staking
+injectived init injective --home ./generated/staking --chain-id 888
 ```
 
 2. Replace genesis.json, app.toml, config.toml in generated directory
 ```
-cd generated/multinodes/config && rm -f app.toml config.toml genesis.json && cd ../../../
-cp -r config/multinodes/ generated/multinodes/config/
+cd generated/staking/config && rm -f app.toml config.toml genesis.json && cd ../../../
+cp -r staking/10000/ generated/staking/config/
 ```
 
-3. Start the node and you should see it syncs with devnet after a while
+3. Start the node and you should see it syncs with staking testnet after a while
 ```
-injectived --chain-id=888 --home ./generated/multinodes start
+injectived --chain-id=888 --home ./generated/staking start
 ```
 
 4. Clean up the existing data to sync again if error happened
 ```
-cd generated/multinodes/data && rm -rf application.db blockstore.db evidence.db snapshots state.db tx_index.db && cd ../../../
+cd generated/staking/data && rm -rf application.db blockstore.db evidence.db snapshots state.db tx_index.db && cd ../../../
 ```
 
 5. persistent peers to add in config.toml
