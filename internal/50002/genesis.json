@@ -514,7 +514,7 @@
         "start_threshold": "0",
         "ethereum_address": "",
         "bridge_chain_id": "888",
-        "inj_contract_address": ""
+        "inj_contract_address": "0xb2731295414b7D41320C1aAe45804cDe89d82d7E"
       }
     },
     "slashing": {
