@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2021-01-01T00:59:10.565858701Z",
+  "genesis_time": "2021-02-03T03:04:12.368261557Z",
   "chain_id": "888",
   "initial_height": "1",
   "consensus_params": {
@@ -34,7 +34,7 @@
         {
           "@type": "/injective.types.v1beta1.EthAccount",
           "base_account": {
-            "address": "inj1kx0cvmfppxlhcxq06zma0x78dmcejhlempnw7n",
+            "address": "inj1v54ytgvwvjc7jlg22249ylpspvztpcq49le5qr",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -54,7 +54,7 @@
         {
           "@type": "/injective.types.v1beta1.EthAccount",
           "base_account": {
-            "address": "inj14hgqya0rm8fpxe2vu53r7radazcsddc8rryz96",
+            "address": "inj10jmp6sgh4cc6zt3e8gw05wavvejgr5pw6m8j75",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -64,7 +64,7 @@
         {
           "@type": "/injective.types.v1beta1.EthAccount",
           "base_account": {
-            "address": "inj1wjy2qsfe23udmgt2dvg9a643zvlfu3sad4rekd",
+            "address": "inj1cml96vmptgw99syqrrz8az79xer2pcgp0a885r",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -74,7 +74,7 @@
         {
           "@type": "/injective.types.v1beta1.EthAccount",
           "base_account": {
-            "address": "inj1f924nks0ndz8p83z324nvagw50earhd6j9u342",
+            "address": "inj1jcltmuhplrdcwp7stlr4hlhlhgd4htqhe4c0cs",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -84,7 +84,7 @@
         {
           "@type": "/injective.types.v1beta1.EthAccount",
           "base_account": {
-            "address": "inj1tuw7wnwxx4syahscd4l0665nrsn2x7fhkdsrph",
+            "address": "inj1dzqd00lfd4y4qy2pxa0dsdwzfnmsu27hgttswz",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -94,7 +94,7 @@
         {
           "@type": "/injective.types.v1beta1.EthAccount",
           "base_account": {
-            "address": "inj15kkr6xv37ly68952nschh35xwh0aus4celz3a8",
+            "address": "inj1wfawuv6fslzjlfa4v7exv27mk6rpfeyvhvxchc",
             "pub_key": null,
             "account_number": "0",
             "sequence": "0"
@@ -119,7 +119,7 @@
           ]
         },
         {
-          "address": "inj1f924nks0ndz8p83z324nvagw50earhd6j9u342",
+          "address": "inj1v54ytgvwvjc7jlg22249ylpspvztpcq49le5qr",
           "coins": [
             {
               "denom": "inj",
@@ -128,52 +128,57 @@
           ]
         },
         {
-          "address": "inj1tuw7wnwxx4syahscd4l0665nrsn2x7fhkdsrph",
+          "address": "inj1dzqd00lfd4y4qy2pxa0dsdwzfnmsu27hgttswz",
           "coins": [
             {
               "denom": "inj",
-              "amount": "1000000000000000000000000"
+              "amount": "1000"
             }
           ]
         },
         {
-          "address": "inj1wjy2qsfe23udmgt2dvg9a643zvlfu3sad4rekd",
+          "address": "inj1wfawuv6fslzjlfa4v7exv27mk6rpfeyvhvxchc",
           "coins": [
             {
               "denom": "inj",
-              "amount": "1000000000000000000000000"
+              "amount": "1000"
             }
           ]
         },
         {
-          "address": "inj15kkr6xv37ly68952nschh35xwh0aus4celz3a8",
+          "address": "inj10jmp6sgh4cc6zt3e8gw05wavvejgr5pw6m8j75",
           "coins": [
             {
               "denom": "inj",
-              "amount": "1000000000000000000000000"
+              "amount": "1000"
             }
           ]
         },
         {
-          "address": "inj14hgqya0rm8fpxe2vu53r7radazcsddc8rryz96",
+          "address": "inj1jcltmuhplrdcwp7stlr4hlhlhgd4htqhe4c0cs",
           "coins": [
             {
               "denom": "inj",
-              "amount": "1000000000000000000000000"
+              "amount": "1000"
             }
           ]
         },
         {
-          "address": "inj1kx0cvmfppxlhcxq06zma0x78dmcejhlempnw7n",
+          "address": "inj1cml96vmptgw99syqrrz8az79xer2pcgp0a885r",
           "coins": [
             {
               "denom": "inj",
-              "amount": "1000000000000000000000000"
+              "amount": "1000"
             }
           ]
         }
       ],
-      "supply": [],
+      "supply": [
+        {
+          "denom": "inj",
+          "amount": "1000000000000000000005001"
+        }
+      ],
       "denom_metadata": []
     },
     "capability": {
@@ -205,6 +210,11 @@
       "delegator_starting_infos": [],
       "validator_slash_events": []
     },
+    "erc20bridge": {
+      "hub_params": {
+        "hub_address": ""
+      }
+    },
     "evidence": {
       "evidence": []
     },
@@ -227,7 +237,10 @@
         "ewasm_block": "-1"
       },
       "params": {
-        "evm_denom": "inj"
+        "evm_denom": "inj",
+        "enable_create": true,
+        "enable_call": true,
+        "extra_eips": []
       },
       "txs_logs": []
     },
@@ -251,16 +264,19 @@
                   "max_change_rate": "0.010000000000000000"
                 },
                 "min_self_delegation": "1",
-                "delegator_address": "inj1kx0cvmfppxlhcxq06zma0x78dmcejhlempnw7n",
-                "validator_address": "injvaloper1kx0cvmfppxlhcxq06zma0x78dmcejhlev8xtlh",
-                "pubkey": "injvalconspub1zcjduepqckzqrpxgvgfs6qpnd2xrcjnt976qqz4th7lw4f72zgpprax3z2wq9r3g0v",
+                "delegator_address": "inj1v54ytgvwvjc7jlg22249ylpspvztpcq49le5qr",
+                "validator_address": "injvaloper1v54ytgvwvjc7jlg22249ylpspvztpcq4jev3p8",
+                "pubkey": {
+                  "@type": "/cosmos.crypto.ed25519.PubKey",
+                  "key": "Bh3IH/abG/RD68frCtC4NYuzC8YrDBwGVAq9is2whW4="
+                },
                 "value": {
                   "denom": "inj",
                   "amount": "1000000000"
                 }
               }
             ],
-            "memo": "6c5a6ec57c562d028bea1e5cf4599733308abbd8@172.31.3.103:26656",
+            "memo": "2c38a578df40481b522e72f5cc12635b9e73db88@172.31.3.103:26656",
             "timeout_height": "0",
             "extension_options": [],
             "non_critical_extension_options": []
@@ -270,7 +286,7 @@
               {
                 "public_key": {
                   "@type": "/injective.crypto.v1beta1.ethsecp256k1.PubKey",
-                  "key": "AxoGr8v7AKNmmeW0QPx0yggEmXTwCXoBnsy/OyNTPIG/"
+                  "key": "A6FSf59rNYKWLe3Jgh3LGKG1DLEUulg2UxKKwXjBZ1rE"
                 },
                 "mode_info": {
                   "single": {
@@ -288,7 +304,7 @@
             }
           },
           "signatures": [
-            "uXZ/oigKFoIglr0jdvBJTStyu+Z7MBlMPyS0W/m5sfQsa+Pw+noBBTboJfvHCDCfvY0+DMg10rbW0o2lhuRwlwA="
+            "aUUBLZH45y+Re/adEXr1To3pdTmFh2IC788UkctMHcl9V1JU7UOmITz7eRdC4JsmpPaSdoq6/5Ee7hfmzUwnRgE="
           ]
         }
       ]
@@ -308,7 +324,7 @@
         "max_deposit_period": "172800s"
       },
       "voting_params": {
-        "voting_period": "172800s"
+        "voting_period": "10s"
       },
       "tally_params": {
         "quorum": "0.334000000000000000",
@@ -320,19 +336,30 @@
       "client_genesis": {
         "clients": [],
         "clients_consensus": [],
-        "create_localhost": true
+        "clients_metadata": [],
+        "params": {
+          "allowed_clients": [
+            "06-solomachine",
+            "07-tendermint"
+          ]
+        },
+        "create_localhost": false,
+        "next_client_sequence": "0"
       },
       "connection_genesis": {
         "connections": [],
-        "client_connection_paths": []
+        "client_connection_paths": [],
+        "next_connection_sequence": "0"
       },
       "channel_genesis": {
         "channels": [],
         "acknowledgements": [],
         "commitments": [],
+        "receipts": [],
         "send_sequences": [],
         "recv_sequences": [],
-        "ack_sequences": []
+        "ack_sequences": [],
+        "next_channel_sequence": "0"
       }
     },
     "mint": {
@@ -350,18 +377,25 @@
       }
     },
     "orders": {
-      "trade_pairs": [
-        {
-          "name": "INJ/WETH",
-          "maker_asset_data": "0xf47261b000000000000000000000000021a6dbf5c87d02c6a44b5f60cfa25a8c1b4aa8a9",
-          "taker_asset_data": "0xf47261b000000000000000000000000047c5744863a3f34671127e8b49a86cf92b6bf789",
-          "hash": "",
-          "enabled": true
+      "trade_pairs": [],
+      "derivative_markets": [],
+      "params": {
+        "exchange_params": {
+          "exchange_address": ""
         }
-      ],
-      "derivative_markets": []
+      }
     },
     "params": null,
+    "peggy": {
+      "params": {
+        "peggy_id": "injecitve-peggyid",
+        "contract_source_hash": "",
+        "start_threshold": "0",
+        "ethereum_address": "",
+        "bridge_chain_id": "888",
+        "inj_contract_address": ""
+      }
+    },
     "slashing": {
       "params": {
         "signed_blocks_window": "100",
@@ -378,7 +412,7 @@
         "unbonding_time": "1814400s",
         "max_validators": 100,
         "max_entries": 7,
-        "historical_entries": 100,
+        "historical_entries": 10000,
         "bond_denom": "inj"
       },
       "last_total_power": "0",
