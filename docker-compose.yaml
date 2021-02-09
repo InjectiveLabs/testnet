@@ -1,0 +1,44 @@
+version: '3.8'
+
+networks:
+  injective:
+    name: injective
+
+services:
+  injective-core:
+    container_name: injective-core
+    image: 981432137740.dkr.ecr.us-east-2.amazonaws.com/injective-core:latest
+    ports:
+      - 26657:26657
+      - 26656:26656
+      - 10337:10337
+      - 9900:9900
+      - 6060:6060
+      - 1318:1318
+      - 1317:1317
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+        reservations:
+          memory: 2G
+    volumes:
+      - ~/.injectived:/root/.injectived
+    networks:
+      - injective
+
+  peggo:
+    container_name: peggo
+    image: 981432137740.dkr.ecr.us-east-2.amazonaws.com/peggo:latest
+    depends_on:
+      - injective-core
+    deploy:
+      resources:
+        limits:
+          memory: 1G
+        reservations:
+          memory: 1G
+    volumes:
+      - ~/.injectived:/root/.injectived
+    networks:
+      - injective
