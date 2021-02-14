@@ -1,1 +1,1 @@
-persistent_peers = ""
+persistent_peers = "5d895f0562630b74467810bd0b8bec5bc7e9f28f@18.222.137.197:26656"
