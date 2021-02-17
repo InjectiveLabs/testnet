@@ -4,7 +4,7 @@ This repository contains network config required to run a node
 
 ## Run validator via docker
 1. Setup new node at network-config root
-  ```m
+  ```
   # Clear existing node
   rm -rf ~/.injectived/
   injectived init my-validator --chain-id 888
