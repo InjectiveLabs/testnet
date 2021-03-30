@@ -1,0 +1,1 @@
+persistent_peers = "e2e69f9ed66e0e9616ce46ca8648e2bf3d897dec@18.188.17.192:26656"
