@@ -537,44 +537,7 @@
           "validator_address": "injvaloper15cj7xecsrj7gjmhn9pa3fs64uy0z0x2tgwnqn7"
         }
       ],
-      "validator_slash_events": [
-        {
-          "height": "837062",
-          "period": "2",
-          "validator_address": "injvaloper19spu8hkygsx834sx74us0vktezhjdedr92jkyc",
-          "validator_slash_event": {
-            "fraction": "0.001000000000000000",
-            "validator_period": "2"
-          }
-        },
-        {
-          "height": "837062",
-          "period": "2",
-          "validator_address": "injvaloper1d8tzff3fvujyupq6lggfh7d6xgw0tenrj7lprj",
-          "validator_slash_event": {
-            "fraction": "0.001000000000000000",
-            "validator_period": "2"
-          }
-        },
-        {
-          "height": "837062",
-          "period": "2",
-          "validator_address": "injvaloper1j7tz4c8s440kjf2xezm8wlee3r7y4rkj0e3n3k",
-          "validator_slash_event": {
-            "fraction": "0.001000000000000000",
-            "validator_period": "2"
-          }
-        },
-        {
-          "height": "837062",
-          "period": "2",
-          "validator_address": "injvaloper15cj7xecsrj7gjmhn9pa3fs64uy0z0x2tgwnqn7",
-          "validator_slash_event": {
-            "fraction": "0.001000000000000000",
-            "validator_period": "2"
-          }
-        }
-      ]
+      "validator_slash_events": []
     },
     "evidence": {
       "evidence": []
