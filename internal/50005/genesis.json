@@ -15599,7 +15599,7 @@
             "security_contact": "",
             "website": ""
           },
-          "jailed": true,
+          "jailed": false,
           "min_self_delegation": "1",
           "operator_address": "injvaloper19spu8hkygsx834sx74us0vktezhjdedr92jkyc",
           "status": "BOND_STATUS_BONDED",
@@ -15628,7 +15628,7 @@
             "security_contact": "",
             "website": ""
           },
-          "jailed": true,
+          "jailed": false,
           "min_self_delegation": "1",
           "operator_address": "injvaloper1d8tzff3fvujyupq6lggfh7d6xgw0tenrj7lprj",
           "status": "BOND_STATUS_BONDED",
@@ -15657,7 +15657,7 @@
             "security_contact": "",
             "website": ""
           },
-          "jailed": true,
+          "jailed": false,
           "min_self_delegation": "1",
           "operator_address": "injvaloper1j7tz4c8s440kjf2xezm8wlee3r7y4rkj0e3n3k",
           "status": "BOND_STATUS_BONDED",
@@ -15686,7 +15686,7 @@
             "security_contact": "",
             "website": ""
           },
-          "jailed": true,
+          "jailed": false,
           "min_self_delegation": "1",
           "operator_address": "injvaloper15cj7xecsrj7gjmhn9pa3fs64uy0z0x2tgwnqn7",
           "status": "BOND_STATUS_BONDED",
