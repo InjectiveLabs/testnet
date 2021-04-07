@@ -15284,7 +15284,156 @@
       ]
     },
     "slashing": {
-      "missed_blocks": [],
+      "missed_blocks": [
+        {
+          "address": "injvalcons1r5rftnm25t9wflmxxywp7shwkctg374shwnn9a",
+          "missed_blocks": [
+            {
+              "index": "81",
+              "missed": false
+            },
+            {
+              "index": "82",
+              "missed": false
+            },
+            {
+              "index": "86",
+              "missed": false
+            },
+            {
+              "index": "88",
+              "missed": false
+            },
+            {
+              "index": "89",
+              "missed": false
+            },
+            {
+              "index": "90",
+              "missed": false
+            },
+            {
+              "index": "91",
+              "missed": false
+            }
+          ]
+        },
+        {
+          "address": "injvalcons1rcy9hxp4g06n9wc867p7quk43rkqruh7f6hpd2",
+          "missed_blocks": [
+            {
+              "index": "1",
+              "missed": false
+            },
+            {
+              "index": "2",
+              "missed": false
+            },
+            {
+              "index": "3",
+              "missed": false
+            },
+            {
+              "index": "4",
+              "missed": false
+            },
+            {
+              "index": "32",
+              "missed": false
+            },
+            {
+              "index": "42",
+              "missed": false
+            },
+            {
+              "index": "43",
+              "missed": false
+            },
+            {
+              "index": "44",
+              "missed": false
+            }
+          ]
+        },
+        {
+          "address": "injvalcons1te0m40e2efeq0wprxf3j5zjwn88592zxvj493h",
+          "missed_blocks": [
+            {
+              "index": "50",
+              "missed": false
+            },
+            {
+              "index": "51",
+              "missed": false
+            },
+            {
+              "index": "52",
+              "missed": false
+            },
+            {
+              "index": "53",
+              "missed": false
+            }
+          ]
+        },
+        {
+          "address": "injvalcons1etz63hfgjk9cf33yphlvkpm4luu9mnwv007mj9",
+          "missed_blocks": [
+            {
+              "index": "56",
+              "missed": false
+            },
+            {
+              "index": "57",
+              "missed": false
+            },
+            {
+              "index": "68",
+              "missed": false
+            },
+            {
+              "index": "69",
+              "missed": false
+            },
+            {
+              "index": "70",
+              "missed": false
+            },
+            {
+              "index": "81",
+              "missed": false
+            },
+            {
+              "index": "83",
+              "missed": false
+            },
+            {
+              "index": "84",
+              "missed": false
+            },
+            {
+              "index": "85",
+              "missed": false
+            },
+            {
+              "index": "86",
+              "missed": false
+            },
+            {
+              "index": "91",
+              "missed": false
+            },
+            {
+              "index": "92",
+              "missed": false
+            },
+            {
+              "index": "93",
+              "missed": false
+            }
+          ]
+        }
+      ],
       "params": {
         "downtime_jail_duration": "600s",
         "min_signed_per_window": "0.500000000000000000",
@@ -15292,7 +15441,52 @@
         "slash_fraction_double_sign": "0.050000000000000000",
         "slash_fraction_downtime": "0.010000000000000000"
       },
-      "signing_infos": []
+      "signing_infos": [
+        {
+          "address": "injvalcons1r5rftnm25t9wflmxxywp7shwkctg374shwnn9a",
+          "validator_signing_info": {
+            "address": "injvalcons1r5rftnm25t9wflmxxywp7shwkctg374shwnn9a",
+            "index_offset": "837060",
+            "jailed_until": "1970-01-01T00:00:00Z",
+            "missed_blocks_counter": "0",
+            "start_height": "0",
+            "tombstoned": false
+          }
+        },
+        {
+          "address": "injvalcons1rcy9hxp4g06n9wc867p7quk43rkqruh7f6hpd2",
+          "validator_signing_info": {
+            "address": "injvalcons1rcy9hxp4g06n9wc867p7quk43rkqruh7f6hpd2",
+            "index_offset": "837060",
+            "jailed_until": "1970-01-01T00:00:00Z",
+            "missed_blocks_counter": "0",
+            "start_height": "0",
+            "tombstoned": false
+          }
+        },
+        {
+          "address": "injvalcons1te0m40e2efeq0wprxf3j5zjwn88592zxvj493h",
+          "validator_signing_info": {
+            "address": "injvalcons1te0m40e2efeq0wprxf3j5zjwn88592zxvj493h",
+            "index_offset": "837060",
+            "jailed_until": "1970-01-01T00:00:00Z",
+            "missed_blocks_counter": "0",
+            "start_height": "0",
+            "tombstoned": false
+          }
+        },
+        {
+          "address": "injvalcons1etz63hfgjk9cf33yphlvkpm4luu9mnwv007mj9",
+          "validator_signing_info": {
+            "address": "injvalcons1etz63hfgjk9cf33yphlvkpm4luu9mnwv007mj9",
+            "index_offset": "837060",
+            "jailed_until": "1970-01-01T00:00:00Z",
+            "missed_blocks_counter": "0",
+            "start_height": "0",
+            "tombstoned": false
+          }
+        }
+      ]
     },
     "staking": {
       "delegations": [
