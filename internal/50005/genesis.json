@@ -8325,11 +8325,6 @@
       ],
       "valsets": [
         {
-          "height": "837062",
-          "members": [],
-          "nonce": "837062"
-        },
-        {
           "height": "827061",
           "members": [
             {
@@ -15690,7 +15685,7 @@
     "version": {}
   },
   "genesis_time": "2021-03-17T04:11:57.509394Z",
-  "initial_height": "837063",
+  "initial_height": "837062",
   "validators": [
     {
       "address": "1D0695CF6AA2CAE4FF66311C1F42EEB61688FAB0",
