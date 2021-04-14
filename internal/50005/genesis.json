@@ -514,7 +514,7 @@
       "balances": [],
       "derivative_markets": [],
       "derivative_orderbook": [],
-      "expiry_futures_market_info": [],
+      "expiry_futures_market_info_state": [],
       "params": {
         "default_derivative_maker_fee_rate": "0.001000000000000000",
         "default_derivative_taker_fee_rate": "0.002000000000000000",
@@ -537,7 +537,7 @@
         }
       },
       "perpetual_market_funding_state": [],
-      "perpetual_market_info": [],
+      "perpetual_market_info_state": [],
       "positions": [],
       "spot_markets": [
         {
@@ -676,7 +676,11 @@
       }
     },
     "oracle": {
-      "params": {}
+      "band_ref_data_state": [],
+      "band_relayers": [],
+      "params": {},
+      "price_feed_price_state": [],
+      "price_feed_relayer_state": []
     },
     "params": null,
     "peggy": {
@@ -685,7 +689,6 @@
       "batches": [],
       "erc20_to_denoms": [],
       "last_observed_nonce": "5",
-      "last_outgoing_batch_id": "0",
       "orchestrator_addresses": [
         {
           "eth_address": "0x032056FdAb96006f0ad4F9941479cD4a4aCE9Bd9",
@@ -709,6 +712,7 @@
         }
       ],
       "params": {
+        "claim_slashing_enabled": false,
         "average_block_time": "5000",
         "average_ethereum_block_time": "15000",
         "bridge_chain_id": "0",
