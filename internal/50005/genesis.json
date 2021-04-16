@@ -31,7 +31,7 @@
               "@type": "/injective.crypto.v1beta1.ethsecp256k1.PubKey",
               "key": "AmoXtsYnliGNIx3lKkz8vvG2kiv1wGjI0j7XWFar/dEG"
             },
-            "sequence": "26"
+            "sequence": "27"
           },
           "code_hash": "xdJGAYb3IzySfn2y3McDwOUAtlPKgic7e/rYBF2FpHA="
         },
@@ -99,7 +99,7 @@
               "@type": "/injective.crypto.v1beta1.ethsecp256k1.PubKey",
               "key": "AiUo1X2MNbJBqWDa1eBGUZOoUgIYcRHkpG43kVDUYC3x"
             },
-            "sequence": "21"
+            "sequence": "22"
           },
           "code_hash": "xdJGAYb3IzySfn2y3McDwOUAtlPKgic7e/rYBF2FpHA="
         },
@@ -136,7 +136,7 @@
               "@type": "/injective.crypto.v1beta1.ethsecp256k1.PubKey",
               "key": "AhUioWNa1oMXnlH+3m5Uws9j0V9Hmci/AE+dmXNKo8b1"
             },
-            "sequence": "21"
+            "sequence": "22"
           },
           "code_hash": "xdJGAYb3IzySfn2y3McDwOUAtlPKgic7e/rYBF2FpHA="
         },
@@ -149,7 +149,7 @@
               "@type": "/injective.crypto.v1beta1.ethsecp256k1.PubKey",
               "key": "Apy7NGoa/Z82kJCtYly4K+FgbSwokuZTyDPYjGxZWS3/"
             },
-            "sequence": "21"
+            "sequence": "22"
           },
           "code_hash": "xdJGAYb3IzySfn2y3McDwOUAtlPKgic7e/rYBF2FpHA="
         },
@@ -192,7 +192,7 @@
           "address": "inj19spu8hkygsx834sx74us0vktezhjdedrjv8n9u",
           "coins": [
             {
-              "amount": "4899999941250500000000",
+              "amount": "4899999882501000000000",
               "denom": "inj"
             }
           ]
@@ -219,7 +219,7 @@
           "address": "inj1d8tzff3fvujyupq6lggfh7d6xgw0tenr9c2yzk",
           "coins": [
             {
-              "amount": "4899999941178500000000",
+              "amount": "4899999882357000000000",
               "denom": "inj"
             }
           ]
@@ -228,7 +228,7 @@
           "address": "inj1jv65s3grqf6v6jl3dp4t6c9t9rk99cd8dkncm8",
           "coins": [
             {
-              "amount": "502172024237262495191",
+              "amount": "568364192149233556098",
               "denom": "inj"
             }
           ]
@@ -237,7 +237,7 @@
           "address": "inj1j7tz4c8s440kjf2xezm8wlee3r7y4rkjclyksj",
           "coins": [
             {
-              "amount": "4899999941178500000000",
+              "amount": "4899999882357000000000",
               "denom": "inj"
             }
           ]
@@ -246,7 +246,7 @@
           "address": "inj15cj7xecsrj7gjmhn9pa3fs64uy0z0x2tlgx9j6",
           "coins": [
             {
-              "amount": "4899999941178500000000",
+              "amount": "4899999882357000000000",
               "denom": "inj"
             }
           ]
@@ -267,7 +267,7 @@
       },
       "supply": [
         {
-          "amount": "20502171789023262495191",
+          "amount": "20568363721721233556098",
           "denom": "inj"
         },
         {
@@ -345,7 +345,7 @@
       "fee_pool": {
         "community_pool": [
           {
-            "amount": "10043903847085665316.720000000000000000",
+            "amount": "11368231643195440693.980000000000000000",
             "denom": "inj"
           }
         ]
@@ -354,7 +354,7 @@
         {
           "outstanding_rewards": [
             {
-              "amount": "123032057899264551060.042500000000000000",
+              "amount": "139249070367860990053.240000000000000000",
               "denom": "inj"
             }
           ],
@@ -363,7 +363,7 @@
         {
           "outstanding_rewards": [
             {
-              "amount": "123032079105593710348.192500000000000000",
+              "amount": "139249029951370414028.440000000000000000",
               "denom": "inj"
             }
           ],
@@ -372,7 +372,7 @@
         {
           "outstanding_rewards": [
             {
-              "amount": "123031974887158798820.292500000000000000",
+              "amount": "139248925605019143509.490000000000000000",
               "denom": "inj"
             }
           ],
@@ -381,7 +381,7 @@
         {
           "outstanding_rewards": [
             {
-              "amount": "123032008498159769645.752500000000000000",
+              "amount": "139248934581787567812.850000000000000000",
               "denom": "inj"
             }
           ],
@@ -394,13 +394,13 @@
         "community_tax": "0.020000000000000000",
         "withdraw_addr_enabled": true
       },
-      "previous_proposer": "injvalcons1r5rftnm25t9wflmxxywp7shwkctg374shwnn9a",
+      "previous_proposer": "injvalcons1rcy9hxp4g06n9wc867p7quk43rkqruh7f6hpd2",
       "validator_accumulated_commissions": [
         {
           "accumulated": {
             "commission": [
               {
-                "amount": "123032057899264551060.042500000000000000",
+                "amount": "139249070367860990053.240000000000000000",
                 "denom": "inj"
               }
             ]
@@ -411,7 +411,7 @@
           "accumulated": {
             "commission": [
               {
-                "amount": "123032079105593710348.192500000000000000",
+                "amount": "139249029951370414028.440000000000000000",
                 "denom": "inj"
               }
             ]
@@ -422,7 +422,7 @@
           "accumulated": {
             "commission": [
               {
-                "amount": "123031974887158798820.292500000000000000",
+                "amount": "139248925605019143509.490000000000000000",
                 "denom": "inj"
               }
             ]
@@ -433,7 +433,7 @@
           "accumulated": {
             "commission": [
               {
-                "amount": "123032008498159769645.752500000000000000",
+                "amount": "139248934581787567812.850000000000000000",
                 "denom": "inj"
               }
             ]
@@ -657,14 +657,14 @@
     "insurance": {
       "insurance_funds": [],
       "params": {
-        "default_redemption_notice_period_duration": "1209600"
+        "default_redemption_notice_period_duration": "1209600s"
       },
       "redemption_schedule": []
     },
     "mint": {
       "minter": {
-        "annual_provisions": "3119937583659286580708.798673955921200480",
-        "inflation": "0.152175959258811485"
+        "annual_provisions": "3184526288866961949682.635884853112551876",
+        "inflation": "0.154826431993849662"
       },
       "params": {
         "blocks_per_year": "6311520",
@@ -688,6 +688,7 @@
       "batch_confirms": [],
       "batches": [],
       "erc20_to_denoms": [],
+      "last_observed_ethereum_height": "23967171",
       "last_observed_nonce": "5",
       "orchestrator_addresses": [
         {
@@ -712,14 +713,15 @@
         }
       ],
       "params": {
-        "claim_slashing_enabled": false,
         "average_block_time": "5000",
         "average_ethereum_block_time": "15000",
         "bridge_chain_id": "0",
-        "bridge_ethereum_address": "0x0000000000000000000000000000000000000000",
+        "bridge_contract_start_height": "23967171",
+        "bridge_ethereum_address": "0x961a78C457cecde7dFE2F93736E4572D52D3aA1E",
+        "claim_slashing_enabled": false,
         "contract_source_hash": "",
         "cosmos_coin_denom": "inj",
-        "cosmos_coin_erc20_contract": "0x0000000000000000000000000000000000000000",
+        "cosmos_coin_erc20_contract": "0xD3C22c2fe26B169Fcb8897550387E7Aeb1A0F1aC",
         "peggy_id": "injective-peggyid",
         "signed_batches_window": "10000",
         "signed_claims_window": "10000",
@@ -731,7 +733,32 @@
         "target_batch_timeout": "43200000",
         "unbond_slashing_valsets_window": "10000"
       },
+      "unbatched_transfers": [],
       "valset_confirms": [
+        {
+          "eth_address": "0x966F7ee6A6221Cd13fd10d43B1d5D65436158A7B",
+          "nonce": "1109366",
+          "orchestrator": "inj19spu8hkygsx834sx74us0vktezhjdedrjv8n9u",
+          "signature": "d11581667042b027dbe1ff31e0b516286e34210f1d70277fb2fe5e57da3e7f0379f14778a17365944647c8860ec33f6895f44ce4ed5e0193b15d47ef1d2498df01"
+        },
+        {
+          "eth_address": "0x053A0006F9f9F36c79C30aCe2931f3288434a4BC",
+          "nonce": "1109366",
+          "orchestrator": "inj1d8tzff3fvujyupq6lggfh7d6xgw0tenr9c2yzk",
+          "signature": "fa2c4a0741464e8128c22237bbbc6f26ec31c2b721729a67e74c2bed0cf5f7eb0b579e457cf0edd9ac6f4505bf74dc277005aac4bcd97f83a6ba90163480314c01"
+        },
+        {
+          "eth_address": "0x032056FdAb96006f0ad4F9941479cD4a4aCE9Bd9",
+          "nonce": "1109366",
+          "orchestrator": "inj1j7tz4c8s440kjf2xezm8wlee3r7y4rkjclyksj",
+          "signature": "ffef01aecb94a4c4557fd11e2d7e28b588763f4c2c3f507ea8c544de19da0f023acd010d0b2fb1d52f42c86807cfbe2d9d988562d63831ae1762beb1589369e400"
+        },
+        {
+          "eth_address": "0x30202ba28Fb0796F606A66af1f4f2E1c289c7397",
+          "nonce": "1109366",
+          "orchestrator": "inj15cj7xecsrj7gjmhn9pa3fs64uy0z0x2tlgx9j6",
+          "signature": "5ace6d49f2512d729d2f8437cdc35486c40bf6ef68004f0de4ae3105beb50cae4cf4436b534bd61cebdabce718cb927942c651aea7840b58371a34758c24147101"
+        },
         {
           "eth_address": "0x966F7ee6A6221Cd13fd10d43B1d5D65436158A7B",
           "nonce": "827061",
@@ -8319,6 +8346,28 @@
       ],
       "valsets": [
         {
+          "height": "1109366",
+          "members": [
+            {
+              "ethereum_address": "0x032056FdAb96006f0ad4F9941479cD4a4aCE9Bd9",
+              "power": "1073741823"
+            },
+            {
+              "ethereum_address": "0x053A0006F9f9F36c79C30aCe2931f3288434a4BC",
+              "power": "1073741823"
+            },
+            {
+              "ethereum_address": "0x30202ba28Fb0796F606A66af1f4f2E1c289c7397",
+              "power": "1073741823"
+            },
+            {
+              "ethereum_address": "0x966F7ee6A6221Cd13fd10d43B1d5D65436158A7B",
+              "power": "1073741823"
+            }
+          ],
+          "nonce": "1109366"
+        },
+        {
           "height": "827061",
           "members": [
             {
@@ -15439,7 +15488,7 @@
           "address": "injvalcons1r5rftnm25t9wflmxxywp7shwkctg374shwnn9a",
           "validator_signing_info": {
             "address": "injvalcons1r5rftnm25t9wflmxxywp7shwkctg374shwnn9a",
-            "index_offset": "1109363",
+            "index_offset": "1241896",
             "jailed_until": "1970-01-01T00:00:00Z",
             "missed_blocks_counter": "0",
             "start_height": "0",
@@ -15450,7 +15499,7 @@
           "address": "injvalcons1rcy9hxp4g06n9wc867p7quk43rkqruh7f6hpd2",
           "validator_signing_info": {
             "address": "injvalcons1rcy9hxp4g06n9wc867p7quk43rkqruh7f6hpd2",
-            "index_offset": "1109363",
+            "index_offset": "1241896",
             "jailed_until": "1970-01-01T00:00:00Z",
             "missed_blocks_counter": "0",
             "start_height": "0",
@@ -15461,7 +15510,7 @@
           "address": "injvalcons1te0m40e2efeq0wprxf3j5zjwn88592zxvj493h",
           "validator_signing_info": {
             "address": "injvalcons1te0m40e2efeq0wprxf3j5zjwn88592zxvj493h",
-            "index_offset": "1109363",
+            "index_offset": "1241896",
             "jailed_until": "1970-01-01T00:00:00Z",
             "missed_blocks_counter": "0",
             "start_height": "0",
@@ -15472,7 +15521,7 @@
           "address": "injvalcons1etz63hfgjk9cf33yphlvkpm4luu9mnwv007mj9",
           "validator_signing_info": {
             "address": "injvalcons1etz63hfgjk9cf33yphlvkpm4luu9mnwv007mj9",
-            "index_offset": "1109363",
+            "index_offset": "1241896",
             "jailed_until": "1970-01-01T00:00:00Z",
             "missed_blocks_counter": "0",
             "start_height": "0",
@@ -15683,7 +15732,7 @@
     "version": {}
   },
   "genesis_time": "2021-03-17T04:11:57.509394Z",
-  "initial_height": "1109366",
+  "initial_height": "1241900",
   "validators": [
     {
       "address": "1D0695CF6AA2CAE4FF66311C1F42EEB61688FAB0",
