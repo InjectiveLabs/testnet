@@ -657,7 +657,7 @@
     "insurance": {
       "insurance_funds": [],
       "params": {
-        "default_redemption_notice_period_duration": "1209600s"
+        "default_redemption_notice_period_duration": 1209600
       },
       "redemption_schedule": []
     },
