@@ -10,8 +10,8 @@ This repository contains network config required to run a node
   injectived init my-validator --chain-id 888
 
   # Copy config
-  cp ./internal/50003/genesis.json ~/.injectived/config/genesis.json
-  cp ./internal/50003/app.toml  ~/.injectived/config/app.toml
+  cp ./staking/40004/genesis.json ~/.injectived/config/genesis.json
+  cp ./staking/40004/app.toml  ~/.injectived/config/app.toml
 
   # Config persistent peer in config.toml
   persistent_peers = "d6548f57d8e2f29222fa9cb874833a22f5fd77ac@3.128.195.28:26656"
