@@ -29,6 +29,7 @@ peggo version
 
 # reset the chain
 injectived unsafe-reset-all
+rm ~/.injectived/config/write-file-atomic-*
 
 # update genesis
 echoCyan "Updating genesis..."
@@ -38,7 +39,7 @@ sha256sum ~/.injectived/config/genesis.json
 # testing the chain
 echoCyan "Testing injectived sync..."
 injectived start &
-sleep 30
+sleep 60
 pkill injectived
 echoCyan "Injectived exited"
 
