@@ -1,0 +1,22 @@
+{
+  "name": "testnet-config",
+  "version": "1.0.0",
+  "description": "If you already configure peggo .env and systemd service, you can simply upgrade using this script.",
+  "main": "replicate-genesis.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://nhannamsiu@github.com/InjectiveLabs/testnet-config.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InjectiveLabs/testnet-config/issues"
+  },
+  "homepage": "https://github.com/InjectiveLabs/testnet-config#readme",
+  "dependencies": {
+    "request-promise": "^4.2.6"
+  }
+}

@@ -1,4 +1,5 @@
 const fs = require('fs')
+const os = require('os')
 const request = require('request-promise')
 const srcGenesis = require('./mainnet-genesis.json')
 const dstGenesis = require('./devnet-genesis.json')
@@ -38,7 +39,7 @@ async function main() {
 
   dstGenesis.app_state.oracle = srcGenesis.app_state.oracle
 
-  fs.writeFileSync('./.injectived/config/genesis.json', JSON.stringify(dstGenesis))
+  fs.writeFileSync(`${os.homedir()}/.injectived/config/genesis.json`, JSON.stringify(dstGenesis))
 }
 
 main()
