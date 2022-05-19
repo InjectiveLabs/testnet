@@ -14,6 +14,15 @@ cksum genesis.json
 mv genesis.json ~/.injectived/config/
 ```
 
+3. Download new binary
+```
+wget https://github.com/InjectiveLabs/injective-chain-releases/releases/download/v0.4.19-1652947015/linux-amd64.zip
+unzip linux-amd64.zip
+sudo mv injectived peggo injective-exchange /usr/bin
+# Copy static libwasm lib
+sudo mv libwasmvm.x86_64.so /usr/lib
+```
+
 3. Restart chain
 ```
 sudo systemctl restart injectived
