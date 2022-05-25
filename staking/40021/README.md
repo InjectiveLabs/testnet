@@ -23,6 +23,7 @@ sudo mv injectived peggo injective-exchange /usr/bin
 # Download wasm packages, which include the libs
 go mod download github.com/CosmWasm/wasmd@v0.27.0-rc0
 go mod download github.com/CosmWasm/wasmvm@v1.0.0-rc.0
+go mod download github.com/InjectiveLabs/wasmd v0.27.0-rc2-inj
 ```
 
 3. Restart chain
