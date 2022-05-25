@@ -19,8 +19,10 @@ mv genesis.json ~/.injectived/config/
 wget https://github.com/InjectiveLabs/injective-chain-releases/releases/download/v0.4.19-1652947015/linux-amd64.zip
 unzip linux-amd64.zip
 sudo mv injectived peggo injective-exchange /usr/bin
-# Copy static libwasm lib
-sudo mv libwasmvm.x86_64.so /usr/lib
+
+# Download wasm packages, which include the libs
+go mod download github.com/CosmWasm/wasmd@v0.27.0-rc0
+go mod download github.com/CosmWasm/wasmvm@v1.0.0-rc.0
 ```
 
 3. Restart chain
