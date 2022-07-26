@@ -8,9 +8,9 @@ rm ~/.injectived/config/genesis.json
 
 2. Download and apply new genesis
 ```
-aws s3 cp s3://injective-snapshots/testnet/70001/genesis.json .
+wget https://raw.githubusercontent.com/InjectiveLabs/testnet-config/master/corfu/70001/genesis.json
 cksum genesis.json
-#3454599728 214923029 70001/genesis.json
+#1919640451 19448 genesis.json
 mv genesis.json ~/.injectived/config/
 ```
 
