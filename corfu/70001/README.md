@@ -2,13 +2,13 @@
 1. Stop and reset chain data
 ```
 sudo systemctl stop injectived
-injectived unsafe-reset-all
+injectived tendermint unsafe-reset-all
 rm ~/.injectived/config/genesis.json
 ```
 
 2. Download and apply new genesis
 ```
-wget aws s3 cp s3://injective-snapshots/testnet/genesis.json .
+aws s3 cp s3://injective-snapshots/testnet/genesis.json .
 sha256sum genesis.json
 a4abe4e1f5511d4c2f821c1c05ecb44b493eec185c0eec13b1dcd03d36e1a779
 mv genesis.json ~/.injectived/config/
