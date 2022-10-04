@@ -8,7 +8,7 @@ rm ~/.injectived/config/genesis.json
 
 2. Download and apply new genesis
 ```
-aws s3 cp s3://injective-snapshots/testnet/genesis.json .
+aws s3 cp s3://injective-snapshots/testnet/genesis.json . --no-sign-request
 sha256sum genesis.json
 a4abe4e1f5511d4c2f821c1c05ecb44b493eec185c0eec13b1dcd03d36e1a779
 mv genesis.json ~/.injectived/config/
