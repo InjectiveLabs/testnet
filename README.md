@@ -1,9 +1,17 @@
-# GUIDE
-If you already configure peggo .env and systemd service, you can simply upgrade using this script.
+# THIS REPOSITORY IS ARCHIVED AND DEPRECATED
 
-The instruction to setup .env and systemd services can be found [here](https://docs.injective.network/docs/equinox/validate-on-equinox/equinox-stage-1/upgrading-your-node)
+> This repository is no longer maintained and should not be used for Injective
+> Chain releases, node setup, or source code.
 
-```
-# ./upgrade.sh [OS] [network-directory] [release-version]
-./upgrade.sh macos staking/40007 v4.0.7-1622621583
-```
+## Current Repository
+
+Injective Chain releases and source code are now located in:
+
+**https://github.com/InjectiveFoundation/injective-core**
+
+Release artifacts are published on the `injective-core` releases page:
+
+**https://github.com/InjectiveFoundation/injective-core/releases**
+
+Please update bookmarks, scripts, documentation, and automation to use
+`InjectiveFoundation/injective-core`.
